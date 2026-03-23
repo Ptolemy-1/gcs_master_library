@@ -890,6 +890,7 @@
 			"id": "TX1p43grlwrWtDMrw",
 			"name": "Meta-Trait: Quadruped",
 			"reference": "B263",
+			"container_type": "meta_trait",
 			"children": [
 				{
 					"id": "tWd5l__uUqh9Uz8qi",
@@ -978,9 +979,15 @@
 			"id": "TytAgYM1CKn60sBo0",
 			"name": "Meta-Trait: Wild Animal",
 			"reference": "B263",
+			"container_type": "meta_trait",
 			"children": [
 				{
-					"id": "tLjLD-ZsAd2LEL_eI",
+					"id": "tDNlpbY5FCAO2JEYK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t7okBtFJSVdaHr_oZ"
+					},
 					"name": "Bestial",
 					"reference": "B124",
 					"tags": [
@@ -1368,7 +1375,7 @@
 		}
 	],
 	"created_date": "2020-05-16T00:00:00-07:00",
-	"modified_date": "2025-11-14T21:02:34Z",
+	"modified_date": "2026-03-23T10:30:49-04:00",
 	"calc": {
 		"swing": "8d+1",
 		"thrust": "6d",

@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "AFtvjw1Zs3XaUBHdE",
-	"total_points": 1559,
+	"total_points": 1489,
 	"points_record": [
 		{
 			"when": "2023-11-26T21:44:08-05:00",
-			"points": 1559,
+			"points": 1489,
 			"reason": "Initial points"
 		}
 	],
@@ -107,7 +107,7 @@
 			{
 				"id": "taste_smell",
 				"type": "integer",
-				"name": "Taste & Smell",
+				"name": "Taste \u0026 Smell",
 				"base": "$per",
 				"cost_per_point": 2
 			},
@@ -2885,157 +2885,10 @@
 						"points": 28,
 						"current_level": 1
 					}
-				},
-				{
-					"id": "tQ3zusVsCD8tGGbja",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Traits.adq",
-						"id": "t4TqvzUkGTe4ipCZE"
-					},
-					"name": "Injury Tolerance",
-					"reference": "B60,P52,MA45",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "mm6lzmMWp0ExEJDML",
-							"name": "Diffuse",
-							"reference": "B60",
-							"local_notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
-							"cost_adj": "100",
-							"disabled": true
-						},
-						{
-							"id": "mTNNI5gQVEfyjeNBg",
-							"name": "Homogenous",
-							"reference": "B60",
-							"local_notes": "Altered wound modifiers: imp & pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
-							"cost_adj": "40",
-							"disabled": true
-						},
-						{
-							"id": "mdu8ajYY4nj8pti_Z",
-							"name": "No Blood",
-							"reference": "B61",
-							"local_notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
-							"cost_adj": "5",
-							"disabled": true
-						},
-						{
-							"id": "me4svuJ4H-XVJTSeo",
-							"name": "No Brain",
-							"reference": "B61",
-							"local_notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
-							"cost_adj": "5",
-							"disabled": true
-						},
-						{
-							"id": "mtFkSK2AKwSIu2G4w",
-							"name": "No Eyes",
-							"reference": "B61",
-							"local_notes": "Eyes may not be targeted. Immune to blinding attacks",
-							"cost_adj": "5",
-							"disabled": true
-						},
-						{
-							"id": "mtjCYM6zoZVo-BOZO",
-							"name": "No Head",
-							"reference": "B61",
-							"local_notes": "Skull, Brain and Face cannot be targeted",
-							"cost_adj": "7",
-							"disabled": true
-						},
-						{
-							"id": "mZCEf71AX56B4Otr7",
-							"name": "No Neck",
-							"reference": "B61",
-							"local_notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
-							"cost_adj": "5",
-							"disabled": true
-						},
-						{
-							"id": "m9hBW7d3lRovNN-d7",
-							"name": "No Vitals",
-							"reference": "B61",
-							"local_notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
-							"cost_adj": "5",
-							"disabled": true
-						},
-						{
-							"id": "mMXbME9QCkRMs0f7i",
-							"name": "Unliving",
-							"reference": "B61",
-							"local_notes": "Altered wound modifiers: imp & pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
-							"cost_adj": "20"
-						}
-					],
-					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"id": "t0rDgjNdfEVs4CTJz",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Powers/Powers Traits.adq",
-						"id": "t4CteYktOAm0aCbOE"
-					},
-					"name": "Injury Tolerance (Damage Reduction)",
-					"reference": "P53",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "mDUhUcZrj6cmMrfyV",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Common Attack Form@",
-							"cost_adj": "-40%",
-							"disabled": true
-						},
-						{
-							"id": "mnofOZOnQxTxxh0gm",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Occasional Attack Form@",
-							"cost_adj": "-60%",
-							"disabled": true
-						},
-						{
-							"id": "mGNjMOnUUmRgI04TC",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Rare Attack Form@",
-							"cost_adj": "-80%",
-							"disabled": true
-						},
-						{
-							"id": "mxsAqWoNAjsWioVux",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Very Common Attack Form@",
-							"cost_adj": "-20%",
-							"disabled": true
-						}
-					],
-					"points_per_level": 25,
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": 50,
-						"current_level": 2
-					}
 				}
 			],
 			"calc": {
-				"points": 500
+				"points": 430
 			}
 		},
 		{
@@ -3778,6 +3631,62 @@
 					}
 				},
 				{
+					"id": "t0rDgjNdfEVs4CTJz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Powers/Powers Traits.adq",
+						"id": "t4CteYktOAm0aCbOE"
+					},
+					"name": "Injury Tolerance (Damage Reduction)",
+					"reference": "P53",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mDUhUcZrj6cmMrfyV",
+							"name": "Limited",
+							"reference": "B46",
+							"local_notes": "@Common Attack Form@",
+							"cost_adj": "-40%",
+							"disabled": true
+						},
+						{
+							"id": "mnofOZOnQxTxxh0gm",
+							"name": "Limited",
+							"reference": "B46",
+							"local_notes": "@Occasional Attack Form@",
+							"cost_adj": "-60%",
+							"disabled": true
+						},
+						{
+							"id": "mGNjMOnUUmRgI04TC",
+							"name": "Limited",
+							"reference": "B46",
+							"local_notes": "@Rare Attack Form@",
+							"cost_adj": "-80%",
+							"disabled": true
+						},
+						{
+							"id": "mxsAqWoNAjsWioVux",
+							"name": "Limited",
+							"reference": "B46",
+							"local_notes": "@Very Common Attack Form@",
+							"cost_adj": "-20%",
+							"disabled": true
+						}
+					],
+					"points_per_level": 25,
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 50,
+						"current_level": 2
+					}
+				},
+				{
 					"id": "tvuvBACKoLFCw31VE",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -3804,7 +3713,7 @@
 							"id": "mHFr8wGPtS-Dwvjtx",
 							"name": "Homogenous",
 							"reference": "B60",
-							"local_notes": "Altered wound modifiers: imp & pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
+							"local_notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
 							"cost_adj": "40",
 							"disabled": true
 						},
@@ -3858,68 +3767,12 @@
 							"id": "miTqk54ksia0w4UEG",
 							"name": "Unliving",
 							"reference": "B61",
-							"local_notes": "Altered wound modifiers: imp & pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
+							"local_notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
 							"cost_adj": "20"
 						}
 					],
 					"calc": {
 						"points": 30
-					}
-				},
-				{
-					"id": "txdXr4ZYegm1UpAjU",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Powers/Powers Traits.adq",
-						"id": "t4CteYktOAm0aCbOE"
-					},
-					"name": "Injury Tolerance (Damage Reduction)",
-					"reference": "P53",
-					"tags": [
-						"Advantage",
-						"Exotic",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "mufuMsvEIpx9_yt8C",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Common Attack Form@",
-							"cost_adj": "-40%",
-							"disabled": true
-						},
-						{
-							"id": "miTr-AHbE4oomUnXh",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Occasional Attack Form@",
-							"cost_adj": "-60%",
-							"disabled": true
-						},
-						{
-							"id": "mY-Ylkg9g6Sx37KFC",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Rare Attack Form@",
-							"cost_adj": "-80%",
-							"disabled": true
-						},
-						{
-							"id": "mJ7yt0o7Js7otFCS4",
-							"name": "Limited",
-							"reference": "B46",
-							"local_notes": "@Very Common Attack Form@",
-							"cost_adj": "-20%",
-							"disabled": true
-						}
-					],
-					"points_per_level": 25,
-					"can_level": true,
-					"levels": 2,
-					"calc": {
-						"points": 50,
-						"current_level": 2
 					}
 				},
 				{
@@ -4989,7 +4842,7 @@
 		}
 	],
 	"created_date": "2023-11-26T21:44:08-05:00",
-	"modified_date": "2026-01-21T20:37:48-05:00",
+	"modified_date": "2026-03-23T10:26:20-04:00",
 	"calc": {
 		"swing": "3d+2",
 		"thrust": "2d-1",

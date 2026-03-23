@@ -928,6 +928,7 @@
 			"id": "T77vdsiLHhSrfKQp6",
 			"name": "Meta-Trait: Quadruped",
 			"reference": "B263",
+			"container_type": "meta_trait",
 			"children": [
 				{
 					"id": "t8xcRJNJZdM_MPwB7",
@@ -1041,6 +1042,7 @@
 			"id": "TY8-VytnGMFc0KRwc",
 			"name": "Meta-Trait: Wild Animal",
 			"reference": "B263",
+			"container_type": "meta_trait",
 			"children": [
 				{
 					"id": "tlSHASWjuYFbv-efF",

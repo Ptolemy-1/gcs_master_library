@@ -748,9 +748,9 @@
 							}
 						},
 						{
-							"id": "tXj79Wt9SKnKm9c7W",
+							"id": "tKcO1z1OwvgvIU2Oz",
 							"source": {
-								"library": "richardwilkes/gcs_master_library",
+								"library": "/Github_library",
 								"path": "Home Brew/Ptolemy's Elder Scrolls/Elder Scrolls Traits.adq",
 								"id": "taLnXfZRpSMmJ_slb"
 							},
@@ -766,16 +766,6 @@
 								{
 									"type": "reaction_bonus",
 									"situation": "From military officers, tribal war-leaders, soldiers, and other professional warriors.",
-									"amount": 1,
-									"per_level": true
-								},
-								{
-									"type": "skill_bonus",
-									"selection_type": "skills_with_name",
-									"name": {
-										"compare": "is",
-										"qualifier": "Shield"
-									},
 									"amount": 1,
 									"per_level": true
 								},

@@ -1128,7 +1128,12 @@
 			}
 		},
 		{
-			"id": "t06ZnmTeiQttTuIMu",
+			"id": "tRfyZYfQcqJ068bxz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tj66NHKyO_GObgGsj"
+			},
 			"name": "Sharp Claws",
 			"reference": "B42",
 			"tags": [
@@ -1138,7 +1143,7 @@
 			"base_points": 5,
 			"weapons": [
 				{
-					"id": "wpD6DIEWTa6l2wxXR",
+					"id": "wG3Katbat6Tej7BJG",
 					"sv": 1,
 					"damage": {
 						"type": "cut",
@@ -1172,7 +1177,7 @@
 					}
 				},
 				{
-					"id": "wwxKJ0zD-PI3gImM9",
+					"id": "w2g3CGDD4Pj10B11C",
 					"sv": 1,
 					"damage": {
 						"type": "cut",
@@ -1181,10 +1186,6 @@
 					"usage": "Kick",
 					"reach": "C,1",
 					"defaults": [
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
 						{
 							"type": "dx",
 							"modifier": -2
@@ -1201,7 +1202,7 @@
 						}
 					],
 					"calc": {
-						"level": 18,
+						"level": 16,
 						"damage": "4d+3 cut"
 					}
 				}
@@ -1979,7 +1980,12 @@
 			}
 		},
 		{
-			"id": "qG_iY-9NgakLGey0D",
+			"id": "qadIHOmtLZpUZKe-Z",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "qFbhmeFMf02fJu7DY"
+			},
 			"name": "Kicking",
 			"reference": "B231,MA75",
 			"tags": [
@@ -1995,21 +2001,6 @@
 				"modifier": -2
 			},
 			"limit": 0,
-			"features": [
-				{
-					"type": "weapon_bonus",
-					"selection_type": "weapons_with_required_skill",
-					"name": {
-						"compare": "is",
-						"qualifier": "Kicking"
-					},
-					"level": {
-						"compare": "at_least"
-					},
-					"amount": 1,
-					"per_die": true
-				}
-			],
 			"points": 3,
 			"calc": {
 				"level": 18,
@@ -2068,7 +2059,7 @@
 		}
 	],
 	"created_date": "2023-11-26T21:44:08-05:00",
-	"modified_date": "2025-11-14T21:34:28Z",
+	"modified_date": "2026-03-23T10:41:44-04:00",
 	"calc": {
 		"swing": "6d+1",
 		"thrust": "4d-1",

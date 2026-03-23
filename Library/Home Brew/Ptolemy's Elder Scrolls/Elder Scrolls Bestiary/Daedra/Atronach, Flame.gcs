@@ -2330,7 +2330,7 @@
 			"id": "t9zzPbXgQ5a9sIzsW",
 			"name": "Fragile (Unnatural)",
 			"reference": "B137",
-			"local_notes": "Automatically fail HT roll to stay alive if reduced to -HP or below, returning the Imp to the Abyss",
+			"local_notes": "Automatically fail HT roll to stay alive if reduced to -HP or below",
 			"tags": [
 				"Disadvantage",
 				"Exotic",
@@ -2433,7 +2433,12 @@
 			}
 		},
 		{
-			"id": "tpRtyDTNmGpb7Cbk9",
+			"id": "tUBNH3Fh4zYUg6ntl",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tkruLIseh5plYfwvK"
+			},
 			"name": "Weakness",
 			"reference": "B161",
 			"tags": [
@@ -2441,63 +2446,66 @@
 				"Exotic",
 				"Physical"
 			],
+			"replacements": {
+				"Common Substance": "Water"
+			},
 			"modifiers": [
 				{
-					"id": "mPTcmJfrOAIoKozWY",
+					"id": "mEzjJ6vCvPKxXGVUn",
 					"name": "1d damage per minute",
 					"reference": "B161",
 					"cost_adj": "-20"
 				},
 				{
-					"id": "mbvf7oca4Cq3kBbR2",
+					"id": "mmuKDuqjfDX_Eo4M9",
 					"name": "1d damage per 5 minutes",
 					"reference": "B161",
 					"cost_adj": "-10",
 					"disabled": true
 				},
 				{
-					"id": "mo8N029oiR7z_BHQf",
+					"id": "mEnvVYY6DxaO15uUf",
 					"name": "1d damage per 30 minutes",
 					"reference": "B161",
 					"cost_adj": "-5",
 					"disabled": true
 				},
 				{
-					"id": "m93STgsrI67mo6zUV",
+					"id": "mkYgrW5J6pA_A-4K9",
 					"name": "@Rare Substance@",
 					"reference": "B161",
 					"cost_adj": "x0.5",
 					"disabled": true
 				},
 				{
-					"id": "mBYSR5FEyqYDwX-1g",
+					"id": "mQJW3e_oFHFsvDI9t",
 					"name": "@Occasional Substance@",
 					"reference": "B161",
 					"cost_adj": "x1",
 					"disabled": true
 				},
 				{
-					"id": "mKdj-ufN3s9K-ZHWf",
-					"name": "Water",
+					"id": "mqMD-DKU-3ubVZnCd",
+					"name": "@Common Substance@",
 					"reference": "B161",
 					"cost_adj": "x2"
 				},
 				{
-					"id": "mRiCHQuQCLgsNnhEu",
+					"id": "msDyJASGuR0rIJDBc",
 					"name": "@Very Common Substance@",
 					"reference": "B161",
 					"cost_adj": "x3",
 					"disabled": true
 				},
 				{
-					"id": "mA0p4HzYgpxdGMI9M",
+					"id": "mA-lfNt2U1K8wYYBP",
 					"name": "Fatigue Only",
 					"reference": "B161",
 					"cost_adj": "-50%",
 					"disabled": true
 				},
 				{
-					"id": "mjQnxIpROfcDgHbqa",
+					"id": "mvoVt_L1B4gvK2qED",
 					"name": "Variable",
 					"reference": "B161",
 					"cost_adj": "-40%",
@@ -3258,7 +3266,7 @@
 		}
 	],
 	"created_date": "2023-11-26T21:44:08-05:00",
-	"modified_date": "2025-11-14T21:16:14Z",
+	"modified_date": "2026-03-23T10:40:41-04:00",
 	"calc": {
 		"swing": "2d",
 		"thrust": "1d",

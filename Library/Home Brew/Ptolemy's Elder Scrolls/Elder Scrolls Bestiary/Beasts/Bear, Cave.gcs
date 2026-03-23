@@ -964,6 +964,7 @@
 			"id": "TeJ2EW58Fr_hcSJ5V",
 			"name": "Meta-Trait: Wild Animal",
 			"reference": "B263",
+			"container_type": "meta_trait",
 			"children": [
 				{
 					"id": "tzsdc-3RVPoNiqjwQ",
